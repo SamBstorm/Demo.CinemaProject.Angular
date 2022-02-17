@@ -1,0 +1,6 @@
+<h1>Création de Film</h1>
+<form [formGroup]="myFormulaire" (ngSubmit)="save()">
+    <label>Titre :</label><input type="text" formControlName="titre">
+    <label>Date de sortie : </label><input type="date" formControlName="date">
+    <input type="submit">
+</form>
